@@ -1,0 +1,33 @@
+h1 {
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 40px;
+    color: #2C7776;
+    text-shadow: 4px 4px 0 #000; 
+}
+
+h2 {
+    color: #FFFF;
+    width: 540px;
+    height: 30px;
+    left: 129px;
+    top: 306px;
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 30px;
+    text-shadow: 4px 4px 0px #000000;
+    margin-top: 115px;
+    margin-left: 40px; 
+}
+
+.container {
+    display: inline-block;
+    background-color: #3A4042;
+    width: 600px;
+    height: 184px;
+    left: 89px;
+    top: 196px;
+    position: absolute;
+    filter: drop-shadow(10px 10px 0px #000000);
+}

@@ -10,7 +10,7 @@ nav {
 text-align: right;
 }
 
-.logo{
+.logo {
     height: 60px;
     margin-top: 5px;
 }
@@ -49,40 +49,7 @@ animation: pulsate 2s ease-in-out;
 
 }
 
-h1{
-    color: #2C7776;
-    position: absolute;
-    width: 440px;
-    height: 40px;
-    left: 60px;
-    top: 248px;
-    font-family: 'Press Start 2P';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 31px;
-    line-height: 35px;
-    text-shadow: 4px 4px 0px #000000;
-    text-align: left;
-    margin-top: -200px;
-}
-
-h2{
-    color: #FFFF;
-    width: 540px;
-    height: 30px;
-    left: 129px;
-    top: 306px;
-    font-family: 'Press Start 2P';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 27px;
-    line-height: 30px;
-    text-shadow: 4px 4px 0px #000000;
-    margin-top: 115px;
-    margin-left: 40px; 
-}
-
-.container{
+.container {
     display: inline-block;
     background-color: #3A4042;
     width: 600px;
