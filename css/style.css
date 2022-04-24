@@ -1,0 +1,101 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2C7776;
+    border-bottom: 10px solid #000;
+    padding: 10px 20px;
+}
+
+nav {
+text-align: right;
+}
+
+.logo{
+    height: 60px;
+    margin-top: 5px;
+}
+
+a {
+display: inline-flex;
+align-items: center;
+color: #FFFF;
+font-size: 20px;
+font-family: "Fira Code", Arial, Helvetica, sans-serif;
+font-weight:  500;
+text-decoration: none;
+margin-right: 30px;
+}
+
+a::before {
+content: "";
+background-color: #84C8D7;
+width: 10px;
+height: 10px;
+margin-right: 10px;
+}
+
+#button {
+display: inline-block;
+box-shadow: 5px 5px 0px #000;
+padding: 18px 20px;
+margin-right: 0;    
+border: 3px solid;
+border-color: #46acc3;
+border-radius: 3px;
+}
+
+#button:hover {
+animation: pulsate 2s ease-in-out;
+
+}
+
+h1{
+    color: #2C7776;
+    position: absolute;
+    width: 440px;
+    height: 40px;
+    left: 60px;
+    top: 248px;
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 31px;
+    line-height: 35px;
+    text-shadow: 4px 4px 0px #000000;
+    text-align: left;
+    margin-top: -200px;
+}
+
+h2{
+    color: #FFFF;
+    width: 540px;
+    height: 30px;
+    left: 129px;
+    top: 306px;
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 30px;
+    text-shadow: 4px 4px 0px #000000;
+    margin-top: 115px;
+    margin-left: 40px; 
+}
+
+.container{
+    display: inline-block;
+    background-color: #3A4042;
+    width: 600px;
+    height: 184px;
+    left: 89px;
+    top: 196px;
+    position: absolute;
+    filter: drop-shadow(10px 10px 0px #000000);
+}
+
+@keyframes pulsate {
+0%{
+    box-shadow: 0 0 30px #84c8d7,
+    0 0 30px #FFFF;
+}
+}
