@@ -46,18 +46,6 @@ border-radius: 3px;
 
 #button:hover {
 animation: pulsate 2s ease-in-out;
-
-}
-
-.container {
-    display: inline-block;
-    background-color: #3A4042;
-    width: 600px;
-    height: 184px;
-    left: 89px;
-    top: 196px;
-    position: absolute;
-    filter: drop-shadow(10px 10px 0px #000000);
 }
 
 @keyframes pulsate {
